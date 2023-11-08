@@ -1,0 +1,31 @@
+*,:after,:before{
+    box-sizing:inherit
+}
+body{
+    font-weight:500;
+    -webkit-font-smoothing:antialiased
+}
+h1{
+    font-family:var(--ui-typography-typeface);
+    font-weight:800;
+    -webkit-font-smoothing:antialiased
+}
+@-webkit-keyframes dash{
+    to{
+        stroke-dashoffset:-1000
+    }
+}
+:root{
+    --bs-success-rgb:#9753ED;
+    --bs-border-color-2:#9753ED
+}
+.fs-5{
+    font-size:1.25rem
+}
+.product-image img{
+    width:100%;
+    filter:drop-shadow(rgb(199, 199, 199) 10px 0 40px)
+}
+.product-image{
+    margin-top:0
+}
